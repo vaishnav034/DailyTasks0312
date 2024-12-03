@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"> 
+
+    <style>
+        body{
+            background-color: white;
+            height: 100vh;
+            width: 100vw;
+            margin-left: 15px;
+        }
+        .header_part {
+            font-size: 30px;
+            text-align: center;
+            color: #c9716b;
+            margin-top: 35px;
+        }
+        .Spaces_for_nav {
+            margin-top: 30px;
+        }
+        .button_tag {
+            margin-left: 8px;
+        }
+        .Restaurant_name {
+            color: brown;
+            
+        }
+        .spaces_map {
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <!---header part-->
+    <header>
+        <h1 class="header_part">Hyderabad Famous Restaurants</h1>
+    </header>
+
+    <!--nav bar-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light Spaces_for_nav">
+        <a class="navbar-brand Restaurant_name" href="#"><b>ITC FOOD RESTAURANT</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!---list items in Navbar-->
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" >Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Food Items</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Order online</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Chefs</a>
+              </li>
+          </ul>
+
+          <!--- serach and button in Nav bar-->
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          </form>
+          <button class="btn btn-outline-success my-2 my-sm-0 button_tag" type="submit">Search</button>
+        </div>
+      </nav>
+
+      <!-----Food Items---->
+      <!--- veg items-->
+
+      <details>
+        <summary> Veg items </summary>
+
+        <!---panner butter masala-->
+        <details style="margin-left: 20px;">
+            <summary>Panner Butter Masala</summary>
+        <ol>
+            <h1 style="font-size: 15px;">Required Ingrediants</h1>
+            <ul>
+                <input type="checkbox" id="panner">
+                <label for="panner">panner</label><br> 
+
+                <input type="checkbox" id="butter">
+                <label for="butter">butter</label><br>
+                    
+
+                <input type="checkbox" id="masala">
+                <label for="masala">masala</label><br>
+                    
+
+                <input type="checkbox" id="oil" name="vehicle1" value="Bike">
+                <label for="oil">oil</label><br>
+
+                <input type="checkbox" id="cream" name="vehicle1" value="Bike">
+                <label for="cream">cream</label><br>
+
+            
+            </ul>
+
+            <iframe 
+                width="560" height="315" 
+                src="https://www.youtube.com/embed/2zSCTYPazFw?si=qOqu9ytuDVuBEFxn" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+        </ol>
+    </details>
+
+        <!---palak panner-->
+        <details style="margin-left: 20px;">
+            <summary>Palak panner</summary>
+        <ol>
+            <h1 style="font-size: 15px;">Required Ingrediants</h1>
+            <ul>
+                    <input type="checkbox" id="palak">
+                    <label for="palak">palak</label><br>
+
+                    <input type="checkbox" id="butter">
+                    <label for="butter">butter</label><br>
+                        
+    
+                    <input type="checkbox" id="masala">
+                    <label for="masala">masala</label><br>
+                        
+    
+                    <input type="checkbox" id="oil" name="vehicle1" value="Bike">
+                    <label for="oil">oil</label><br>
+    
+                    <input type="checkbox" id="cream" name="vehicle1" value="Bike">
+                    <label for="cream">cream</label><br>
+                </ul>
+        </ol>
+    </details>
+
+
+    <!----methi chaman-->
+    <details style="margin-left: 20px;">
+        <summary>Mathi chaman--</summary>
+    <ol>
+        <h1 style="font-size: 15px;">Required Ingrediants</h1>
+            <ul>
+                    <input type="checkbox" id="methi">
+                    <label for="methi">methi</label><br>
+
+                    <input type="checkbox" id="butter">
+                    <label for="butter">butter</label><br>
+                        
+    
+                    <input type="checkbox" id="masala">
+                    <label for="masala">masala</label><br>
+                        
+    
+                    <input type="checkbox" id="oil" name="vehicle1" value="Bike">
+                    <label for="oil">oil</label><br>
+    
+                    <input type="checkbox" id="cream" name="vehicle1" value="Bike">
+                    <label for="cream">cream</label><br>
+                </ul>
+    </ol>
+    </details>
+
+
+        <!----mirchi ka Salad-->
+        <details style="margin-left: 20px;">
+            <summary>Mirchi ka salad--</summary>
+        <ol>
+            <h1 style="font-size: 15px;">Ingrediants</h1>
+            <ul>
+                <li>
+                    merchi
+                </li>
+                <li>
+                    curd
+                </li>
+                <li>
+                    masala
+                </li>
+                <li>
+                    oil
+                </li>
+                <li>
+                    spices
+                </li>
+            </ul>
+        </ol>
+        </details>
+        
+      </details>
+
+
+  
+
+
+
+      <!----Non veg items-->
+
+
+      <details>
+        <summary> Non Veg items </summary>
+
+        <!---butter Chicken-->
+        <details style="margin-left: 20px;">
+            <summary>Butter Chicken--</summary>
+        <ol>
+            <h1 style="font-size: 15px;">Ingrediants</h1>
+            <ul>
+                <li>
+                    Chicken--
+                </li>
+                <li>
+                    butter
+                </li>
+                <li>
+                    masala
+                </li>
+                <li>
+                    oil
+                </li>
+                <li>
+                    cream
+                </li>
+            </ul>
+        </ol>
+    </details>
+
+        <!---mutton curry-->
+        <details style="margin-left: 20px;">
+            <summary>Mutton curry </summary>
+        <ol>
+            <h1 style="font-size: 15px;">Ingrediants</h1>
+            <ul>
+                <li>
+                    Mutton
+                </li>
+                <li>
+                    palak
+                </li>
+                <li>
+                    masala
+                </li>
+                <li>
+                    oil
+                </li>
+                <li>
+                    cream
+                </li>
+            </ul>
+        </ol>
+    </details>
+
+
+    <!----Fish curry-->
+    <details style="margin-left: 20px;">
+        <summary>Fish Curry--</summary>
+    <ol>
+        <h1 style="font-size: 15px;">Ingrediants</h1>
+        <ul>
+            <li>
+                Fish
+            </li>
+            <li>
+                butter
+            </li>
+            <li>
+                masala
+            </li>
+            <li>
+                oil
+            </li>
+            <li>
+                spices
+            </li>
+        </ul>
+    </ol>
+    </details>
+
+
+        <!----Mutton mirchi ka Salad-->
+        <details style="margin-left: 20px;">
+            <summary>Mirchi ka salad--</summary>
+        <ol>
+            <h1 style="font-size: 15px;">Ingrediants</h1>
+            <ul>
+                <li>
+                    merchi
+                </li>
+                <li>
+                    muttton
+                </li>
+                <li>
+                    masala
+                </li>
+                <li>
+                    oil
+                </li>
+                <li>
+                    spices
+                </li>
+            </ul>
+        </ol>
+        </details>
+        
+      </details>   
+
+
+    </section>
+      <!----Map Loction-->
+      <footer class="spaces_map" id="contact">
+        <h1>Directions</h1>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.5725707267043!2d78.38022437857744!3d17.43228844082185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9388a09a79f5%3A0x9ff99841b5ec9e9c!2sITC%20Kohenur%2C%20a%20Luxury%20Collection%20Hotel%2C%20Hyderabad!5e0!3m2!1sen!2sin!4v1732794128128!5m2!1sen!2sin" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </footer>
+</body>
+</html>

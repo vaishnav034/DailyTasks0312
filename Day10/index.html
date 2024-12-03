@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .background-color{
+            background-color: #578deb;
+            height: 100vh;
+            width: 100vw;
+        }
+        .registration_form_background {
+            background-color: white;
+            height: 70vh;
+            width: 70vw;
+            margin: auto;
+            background: white;
+            padding: 18px;
+            padding-left: 20px;
+            font-family: "arial";
+            font-size: 15px;
+
+            
+        }
+        .details_heading{
+            color: #b7bcc4;
+
+        }
+        .font-details {
+            font-size: 14px;
+        }
+        .spaces {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-right: 150px;
+            height: 25px;
+            width: 200px;
+            border-width: 1px;
+            border-radius: 3px;
+        }
+        .form-inline{
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .button {
+                background-color: #578deb;
+                border-width: 0px;
+                height: 32px;
+                width: 80px;
+                color: white;
+                font-weight: bold;
+        }
+    </style>
+</head>
+<body class="background-color">
+    <div class="registration_form_background">
+        <h1>Registration</h1>
+
+        <form action="https://formsubmit.co/saivyshnav034@gmail.com" method="POST">
+        <p class="details_heading"><b> Personal Details </b></p>
+        <!-----Personal Details Line 1-->
+        
+        <div class="form-inline">
+            <div >
+                <label for="Full_name" class="font-details">Full Name :</label> <br>
+                <input type="text" name="Full_name" id="Full_name" class="spaces" placeholder="FirstName">
+            </div>
+
+            <div>
+                <label for="DOB">Date of Birth :</label> <br>
+                <input type="datetime-local" name="DOB" id="DOB" class="spaces" placeholder="DOB">
+            </div>
+
+            <div>
+                <label for="email">Email :</label> <br>
+                <input type="email" name="email" id="email" class="spaces" placeholder="name@gmail.com   ">
+            </div>
+        </div>
+
+        <!---personl Details Line 2-->
+        <div class="form-inline">
+            <div >
+                <label for="number" class="font-details">Mobile Number :</label> <br>
+                <input type="Number" name="number" id="number" class="spaces" placeholder="+91">
+            </div>
+
+            <div>
+                <label for="gender">Gender :</label> <br>
+                <input type="text" id="gender" name="gender" list="gender-options" placeholder="Select Gender" class="spaces">
+                <datalist id="gender-options">
+                  <option value="Male">
+                  <option value="Female">
+                  <option value="Other">
+                </datalist>
+            </div>
+
+            <div>
+                <label for="work">Occupation :</label> <br>
+                <input type="text" name="work" id="work" class="spaces" placeholder="Occupation">
+            </div>
+        </div>
+
+
+        <!---Identity Details-->
+        <p class="details_heading"><b> Identity Details </b></p>
+        <!-----Personal Details Line 1-->
+        <div class="form-inline">
+            <div >
+                <label for="idtype" class="font-details">ID Type :</label> <br>
+                <input type="text" name="idtype" id="idtype" class="spaces" placeholder="ID Type">
+            </div>
+
+            <div>
+                <label for="idnumber">Id Number :</label> <br>
+                <input type="number" name="idnumber" id="idnumber" class="spaces" placeholder="Id Number">
+            </div>
+
+            <div>
+                <label for="issuea">Issue Authority :</label> <br>
+                <input type="text" name="issuea" id="issuea" class="spaces" placeholder="Issue">
+            </div>
+        </div>
+
+        <!---Identity details Line 2-->
+        <div class="form-inline">
+            <div >
+                <label for="issued" class="font-details">Issue Date :</label> <br>
+                <input type="datetime-local" name="issued" id="issued" class="spaces" placeholder="ID Type">
+            </div>
+
+            <div>
+                <label for="issues">Issue state :</label> <br>
+                <input type="text" name="issues" id="issues" class="spaces" placeholder="Id Number">
+            </div>
+
+            <div>
+                <label for="Expiry">Expiry Date :</label> <br>
+                <input type="datetime-local" name="Expiry" id="Expiry" class="spaces" placeholder="Issue">
+            </div>
+        </div>
+
+        <input type="submit" >
+
+    </form>
+        
+    </div>
+    </body>
+</html>
